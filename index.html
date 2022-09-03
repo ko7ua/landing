@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=PT+Serif&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#ffc40d" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <header class="header">
+          <a href="#" class="logo">
+            <img src="img/logo1.png" alt="" />
+            <img src="img/logo2.png" alt="" />
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li><a href="#" class="active">About</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Agency</a></li>
+              <li><a href="#">Featured</a></li>
+              <li><a href="#">Price</a></li>
+            </ul>
+          </nav>
+          <label class="burger-menu">
+            <input type="checkbox" />
+            <div class="fixed-menu">
+              <nav class="menu_right">
+                <ul>
+                  <li><a href="#" class="active">About</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Agency</a></li>
+                  <li><a href="#">Featured</a></li>
+                  <li><a href="#">Price</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="menu-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </label>
+        </header>
+        <main>
+          <div class="socials">
+            <a href="#" target="_blank">
+              <svg
+                width="13"
+                height="24"
+                viewBox="0 0 13 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.3128 10.8936L11.8879 7.3887H8.29011V5.11525C8.29011 4.15616 8.79177 3.22072 10.4032 3.22072H12.04V0.236817C12.04 0.236817 10.5552 0 9.13635 0C6.17198 0 4.23621 1.67902 4.23621 4.7174V7.3887H0.942383V10.8936H4.23621V23.0617H8.29011V10.8936H11.3128Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+            <a href="#" target="_blank">
+              <svg
+                width="18"
+                height="17"
+                viewBox="0 0 18 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.0927 3.83544C15.0927 4.53016 14.4965 5.09335 13.761 5.09335C13.0255 5.09335 12.4293 4.53016 12.4293 3.83544C12.4293 3.14071 13.0255 2.57753 13.761 2.57753C14.4965 2.57753 15.0927 3.14071 15.0927 3.83544Z"
+                  fill="currentColor"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M8.87807 12.6408C11.3297 12.6408 13.3171 10.7635 13.3171 8.44778C13.3171 6.13203 11.3297 4.25474 8.87807 4.25474C6.42646 4.25474 4.43904 6.13203 4.43904 8.44778C4.43904 10.7635 6.42646 12.6408 8.87807 12.6408ZM8.87807 10.9636C10.349 10.9636 11.5415 9.83723 11.5415 8.44778C11.5415 7.05833 10.349 5.93196 8.87807 5.93196C7.40711 5.93196 6.21465 7.05833 6.21465 8.44778C6.21465 9.83723 7.40711 10.9636 8.87807 10.9636Z"
+                  fill="currentColor"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 8.11234C0 5.29435 0 3.88536 0.580591 2.80903C1.09129 1.86227 1.9062 1.09252 2.90851 0.610123C4.04798 0.0617065 5.53964 0.0617065 8.52295 0.0617065H9.2332C12.2165 0.0617065 13.7082 0.0617065 14.8476 0.610123C15.85 1.09252 16.6649 1.86227 17.1756 2.80903C17.7561 3.88536 17.7561 5.29435 17.7561 8.11234V8.78322C17.7561 11.6012 17.7561 13.0102 17.1756 14.0865C16.6649 15.0333 15.85 15.803 14.8476 16.2854C13.7082 16.8339 12.2165 16.8339 9.2332 16.8339H8.52295C5.53964 16.8339 4.04798 16.8339 2.90851 16.2854C1.9062 15.803 1.09129 15.0333 0.580591 14.0865C0 13.0102 0 11.6012 0 8.78322V8.11234ZM8.52295 1.73892H9.2332C10.7542 1.73892 11.7881 1.74023 12.5873 1.8019C13.3657 1.86198 13.7638 1.97088 14.0415 2.10453C14.7097 2.42613 15.253 2.93929 15.5935 3.57047C15.735 3.83279 15.8503 4.20883 15.9139 4.94414C15.9792 5.69904 15.9805 6.67567 15.9805 8.11234V8.78322C15.9805 10.2199 15.9792 11.1965 15.9139 11.9514C15.8503 12.6867 15.735 13.0628 15.5935 13.3251C15.253 13.9563 14.7097 14.4694 14.0415 14.791C13.7638 14.9247 13.3657 15.0336 12.5873 15.0937C11.7881 15.1553 10.7542 15.1566 9.2332 15.1566H8.52295C7.002 15.1566 5.96807 15.1553 5.16888 15.0937C4.39043 15.0336 3.99233 14.9247 3.71462 14.791C3.04641 14.4694 2.50314 13.9563 2.16268 13.3251C2.02118 13.0628 1.90589 12.6867 1.84229 11.9514C1.777 11.1965 1.77561 10.2199 1.77561 8.78322V8.11234C1.77561 6.67567 1.777 5.69904 1.84229 4.94414C1.90589 4.20883 2.02118 3.83279 2.16268 3.57047C2.50314 2.93929 3.04641 2.42613 3.71462 2.10453C3.99233 1.97088 4.39043 1.86198 5.16888 1.8019C5.96807 1.74023 7.002 1.73892 8.52295 1.73892Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+            <a href="#" target="_blank">
+              <svg
+                width="20"
+                height="17"
+                viewBox="0 0 20 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.27004 16.5577C3.96213 16.5577 1.81078 15.9145 0 14.8046C1.53741 14.8999 4.25059 14.6716 5.93818 13.1291C3.39949 13.0175 2.25458 11.1517 2.10525 10.3543C2.32095 10.434 3.34971 10.5297 3.93045 10.3065C1.01013 9.60479 0.562121 7.14893 0.661677 6.39942C1.20924 6.7662 2.13843 6.89378 2.50348 6.86188C-0.21774 4.99607 0.761234 2.18937 1.24242 1.58338C3.19527 4.17598 6.12197 5.63209 9.74269 5.71308C9.67442 5.42617 9.63837 5.12745 9.63837 4.82065C9.63837 2.61881 11.4956 0.833862 13.7866 0.833862C14.9836 0.833862 16.0622 1.32113 16.8193 2.10055C17.6192 1.92093 18.823 1.50046 19.4115 1.13686C19.1149 2.15748 18.1914 3.00888 17.6327 3.32444C17.6374 3.33518 17.6282 3.31366 17.6327 3.32444C18.1234 3.25331 19.4512 3.0088 19.9757 2.66778C19.7163 3.24116 18.7372 4.19449 17.9337 4.72821C18.0832 11.0462 13.0387 16.5577 6.27004 16.5577Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="description">
+            <h6>100% Quality Guranty</h6>
+            <h1>
+              Find Classy Furnitures<br />
+              For Your Comfort
+            </h1>
+            <p>
+              All the Lorem Ipsum generators on the Internet tend to
+              predefined<br />
+              chunks this the first true generator on the Internet.
+            </p>
+            <div class="price-block">
+              <h6>Start From</h6>
+              <div class="price">102.99 USD</div>
+            </div>
+            <button class="buy">Buy now</button>
+          </div>
+          <div class="chair">
+            <div class="circle">
+              <img src="img/chair.png" alt="" />
+            </div>
+          </div>
+          <div class="slider">
+            <button class="swiper-button-prev"></button>
+            <button class="swiper-button-next"></button>
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="slide-circle">
+                    <img src="img/slide1.png" alt="" />
+                  </div>
+                  <p>Comfort Launge Chairs</p>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide-circle">
+                    <img src="img/slide2.png" alt="" />
+                  </div>
+                  <p>Comfort Launge Chairs1</p>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide-circle">
+                    <img src="img/slide3.png" alt="" />
+                  </div>
+                  <p>Comfort Launge Chairs2</p>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide-circle">
+                    <img src="img/slide1.png" alt="" />
+                  </div>
+                  <p>Comfort Launge Chairs</p>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide-circle">
+                    <img src="img/slide2.png" alt="" />
+                  </div>
+                  <p>Comfort Launge Chairs1</p>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide-circle">
+                    <img src="img/slide3.png" alt="" />
+                  </div>
+                  <p>Comfort Launge Chairs2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+      <footer class="footer">
+        <div class="footleft">
+          <img class="left" src="img/left.png" alt="" />
+        </div>
+        <div class="footercenter">
+          <h2>Luxury & Fancy Chair</h2>
+          <p>
+            All the Lorem Ipsum generators on the Internet tend to predefined
+            chunks this the first true generator on the Internet.
+          </p>
+          <hr />
+        </div>
+        <div class="footlast">
+          <div class="lup">
+            <p class="upper">20K+</p>
+            <p class="space downer">People Visiting this year</p>
+            <p class="upper">15</p>
+            <p class="downer">Years Experience</p>
+          </div>
+          <div class="ld">
+            <img src="img/group.png" alt="" />
+            <div class="vl"></div>
+            <div>
+              <h4>Trust Members</h4>
+              <p>More than 50k peoples integrate with us.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "vertical",
+        slidesPerView: 3,
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
